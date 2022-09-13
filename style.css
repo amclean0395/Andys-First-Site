@@ -75,10 +75,36 @@ header {
     font-size: large;
 }
 
-div {
-    margin:auto
+
+a:link {
+    color: navy;
 }
 
+a:visited {
+    color: maroon;
+}
 
+h1:hover{
+    color: navy;
+}
+
+a:hover {
+    color:lightblue
+}
+
+div {
+    text-align: center;
+    border: 3px solid navy;
+    margin: auto;
+    width: 30%;
+
+}
+
+h2 {
+    font-size:large;
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 

@@ -1,15 +1,23 @@
+const button = document.getElementById("button")
 
-function addingEventListener() {
-    const input = document.getElementById('button');
-
-    function clickAlert() {
-        alert('The Conn Smythe & Norris')
-    }
-
-input.addEventListener('click', clickAlert);
+function alertButton() {
+    alert("The Norris and Conn Smythe")
 }
 
-addingEventListener()
+button.addEventListener('click', alertButton)
 
+const button2 = document.getElementById("middle")
 
+function alertButton2() {
+    alert("Cale Makar")
+}
 
+button2.addEventListener('click', alertButton2)
+
+const button3 = document.getElementById("last")
+
+function alertButton3() {
+    alert("6: Kadri, Burakovsky, Aube-Kubel, Johnson, Sturm, Kuemper")
+}
+
+button3.addEventListener('click', alertButton3)
